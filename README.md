@@ -1,4 +1,4 @@
 # kmf
-Knuckles MicFinn's -Ye Olde Pizza Pizzazz Theater-
+Knuckles McFinn's -Ye Olde Showtime Pizza Palace-
 
 Created By Ryanskavinskiskavar Rush
