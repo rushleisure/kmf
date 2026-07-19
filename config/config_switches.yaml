@@ -1,0 +1,190 @@
+#config_version=6
+
+switches:
+# cabinet I/O 0024= order 1
+    s_start:
+        number: cab-11
+        tags: start_button
+    s_left_flipper:
+        number: cab-10
+        debounce: quick
+        tags: left_flipper
+    s_right_flipper:
+        number: cab-18
+        debounce: quick
+        tags: right_flipper
+    s_left_upper_level_flipper:
+        number: cab-12
+        debounce: quick
+        tags: upper_level_left_flipper
+    s_right_upper_level_flipper:
+        number: cab-20
+        debounce: quick
+        tags: upper_level_right_flipper
+
+
+# Playfield Switches
+# I/O 3208= order 2, I/O 1616= order 3, I/O 0804= order 4
+    s_left_sling:
+        number: 3208-9
+        debounce: quick
+        tags: left_sling
+    s_right_sling:
+        number: 3208-15
+        debounce: quick
+        tags: right_sling
+    s_left_outlane:
+        number: 3208-11
+        tags: left_outlane
+    s_left_inlane:
+        number: 3208-10
+        tags: left_inlane
+    s_right_inlane:
+        number: 3208-14
+        tags: right_inlane
+    s_right_outlane:
+        number: 3208-13
+        tags: right_outlane
+    s_left_eos:
+        number: 3208-8
+        tags: left_eos
+    s_right_eos:
+        number: 3208-12
+        tags: right_eos
+    s_left_3_bank_standup_1_lowest:
+        number: 3208-31
+        tags: left_3_bank_standup_1_lowest
+    s_left_3_bank_standup_2_middle:
+        number: 3208-30
+        tags: left_3_bank_standup_2_middle
+    s_left_3_bank_standup_3_highest:
+        number: 3208-29
+        tags: left_3_bank_standup_3_highest
+    s_left_standup_target_at_ramp_entry:
+        number: 3208-28
+        tags: left_standup_target_at_ramp_entry
+    s_right_3_bank_standup_1_lowest:
+        number: 3208-25
+        tags: right_3_bank_standup_1_lowest
+    s_right_3_bank_standup_2_middle:
+        number: 3208-26
+        tags: right_3_bank_standup_2_middle
+    s_right_3_bank_standup_3_highest:
+        number: 3208-27
+        tags: right_3_bank_standup_3_highest
+    s_right_standup_target_at_ramp_entry:
+        number: 3208-24
+        tags: right_standup_target_at_ramp_entry
+    s_ left_spinner_opto:
+        number: 1616-1
+        type: NC
+        tags: left_spinner
+    s_right_spinner_opto:
+        number: 1616-0
+        type: NC
+        tags: right_spinnner
+    s_left_drop:
+        number: 1616-8
+        tags: left_drop
+    s_right_drop:
+        number: 3208-23
+        tags: right_drop
+    s_left_upper_level_flipper_eos:
+        number: 3208-17
+        tags: left_upper_level_flipper_eos
+    s_right_upper_level_flipper_eos:
+        number: 3208-22
+        tags: right_upper_level_flipper_eos
+    s_left_ramp_exit:
+        number: 0804-3
+        tags: left_ramp_exit
+    s_right_ramp_exit:
+        number: 0804-4
+        tags: right_ramp_exit
+    s_left_balcony_bow:
+        number: 0804-6
+        tags: left_upper_level_balcony_switch
+    s_right_balcony_bow:
+        number: 0804-7
+        tags: right_upper_level_balcony_switch
+    s_left_front_pop:
+        number: 3208-16
+        tags: left_front_pop
+    s_right_front_pop:
+        number: 3208-21
+        tags: right_front_pop
+    s_left_rear_pop:
+        number: 3208-18
+        tags: left_rear_pop
+    s_right_rear_pop:
+        number: 3208-20
+        tags: right_rear_pop
+    s_center_drop:
+        number: 3208-19
+        tags: center_drop
+    s_star_rollover_9:
+        number: 1616-10
+        tags: star_rollover_9
+    s_star_rollover_8:
+        number: 1616-9
+        tags: star_rollover_8
+    s_star_rollover_7:
+        number: 1616-11
+        tags: star_rollover_7
+    s_star_rollover_6:
+        number: 1616-3
+        tags: star_rollover_6
+    s_star_rollover_5:
+        number: 1616-2
+        tags: star_rollover_5
+    s_star_rollover_4:
+        number: 1616-12
+        tags: star_rollover_4
+    s_star_rollover_3:
+        number: 1616-4
+        tags: star_rollover_3
+    s_star_rollover_2:
+        number: 1616-14
+        tags: star_rollover_2
+    s_star_rollover_1: 
+        number: 1616-15
+        tags: star_rollover_1
+    s_ bogieland_drain:
+        number: 1616-13
+        tags: bogieland_drain
+    s_KMF_center_target:
+        number: 0804-5
+        tags: KMF_center_target
+    s_eject_hole:
+        number: 1616-5
+        tags: eject_hole
+    s_rollover_lane_a:
+        number: 1616-6
+        tags: rollover_lane_a
+    s_rollover_lane_b:
+        number: 1616-7
+        tags: rollover_lane_b
+    s_rollover_lane_c:
+        number: 0804-0
+        tags: rollover_lane_c
+    s_wireform_exit_left_opto:
+        number: 3208-4
+        type: NC
+        tags: left_wireform
+    s_wireform_exit_right_opto:
+        number: 3208-3
+        type: NC
+        tags: right_wireform
+    s_trough_1_opto:
+        number: 3208-0
+        tags: trough_position_1
+    s_trough_2_opto:
+        number: 3208-1
+        tags: trough_position_2
+    s_trough_3_opto:
+        number: 3208-2
+        tags: trough_position_3
+    s_plunger_lane:
+        number: 3208-5
+        type: NC
+
