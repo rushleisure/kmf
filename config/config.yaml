@@ -38,200 +38,34 @@ fast:
     default_normal_debounce_open: 4ms
     default_normal_debounce_close: 4ms
 
-switches:
-# cabinet I/O 0024= order 1
-    s_start:
-        number: cab-11
-        tags: start_button
-    s_left_flipper:
-        number: cab-10
-        debounce: quick
-        tags: left_flipper
-    s_right_flipper:
-        number: cab-18
-        debounce: quick
-        tags: right_flipper
-    s_left_upper_level_flipper:
-        number: cab-12
-        debounce: quick
-        tags: upper_level_left_flipper
-    s_right_upper_level_flipper:
-        number: cab-20
-        debounce: quick
-        tags: upper_level_right_flipper
+  
+autofire_coils:
+    left_sling:
+        coil: c_left_sling
+        switch: s_left_sling
+    right_sling:
+        coil: c_right_sling
+        switch: s_right_sling
+    left_rear_pop:
+        coil: c_left_rear_pop
+        switch: s_left_rear_pop
+    right_rear_pop:
+        coil: c_right_rear_pop
+        switch: s_right_rear_pop
+    left_front_pop:
+        coil: c_left_front_pop
+        switch: s_left_front_pop
+    right_front_pop:
+        coil: c_right_front_pop
+        switch: s_right_front_pop
 
-# Playfield Switches
-# I/O 3208= order 2, I/O 1616= order 3, I/O 0804= order 4
-    s_left_sling:
-        number: 3208-9
-        tags: left_sling
-    s_right_sling:
-        number: 3208-15
-        tags: right_sling
-    s_left_outlane:
-        number: 3208-11
-        tags: left_outlane
-    s_left_inlane:
-        number: 3208-10
-        tags: left_inlane
-    s_right_inlane:
-        number: 3208-14
-        tags: right_inlane
-    s_right_outlane:
-        number: 3208-13
-        tags: right_outlane
-    s_left_eos:
-        number: 3208-8
-        tags: left_eos
-    s_right_eos:
-        number: 3208-12
-        tags: right_eos
-    s_left_3_bank_standup_1_lowest:
-        number: 3208-31
-        tags: left_3_bank_standup_1_lowest
-    s_left_3_bank_standup_2_middle:
-        number: 3208-30
-        tags: left_3_bank_standup_2_middle
-    s_left_3_bank_standup_3_highest:
-        number: 3208-29
-        tags: left_3_bank_standup_3_highest
-    s_left_standup_target_at_ramp_entry:
-        number: 3208-28
-        tags: left_standup_target_at_ramp_entry
-    s_right_3_bank_standup_1_lowest:
-        number: 3208-25
-        tags: right_3_bank_standup_1_lowest
-    s_right_3_bank_standup_2_middle:
-        number: 3208-26
-        tags: right_3_bank_standup_2_middle
-    s_right_3_bank_standup_3_highest:
-        number: 3208-27
-        tags: right_3_bank_standup_3_highest
-    s_right_standup_target_at_ramp_entry:
-        number: 3208-24
-        tags: right_standup_target_at_ramp_entry
-    s_ left_spinner:
-        number: 1616-1
-        tags: left_spinner
-    s_right_spinner:
-        number: 1616-0
-        tags: right_spinnner
-    s_left_drop:
-        number: 1616-8
-        tags: left_drop
-    s_right_drop:
-        number: 3208-23
-        tags: right_drop
-    s_left_upper_level_flipper_eos:
-        number: 3208-17
-        tags: left_upper_level_flipper_eos
-    s_right_upper_level_flipper_eos:
-        number: 3208-22
-        tags: right_upper_level_flipper_eos
-    s_left_ramp_exit:
-        number: 0804-3
-        tags: left_ramp_exit
-    s_right_ramp_exit:
-        number: 0804-4
-        tags: right_ramp_exit
-    s_left_balcony_bow:
-        number: 0804-6
-        tags: left_upper_level_balcony_switch
-    s_right_balcony_bow:
-        number: 0804-7
-        tags: right_upper_level_balcony_switch
-    s_left_lower_pop:
-        number: 3208-16
-        tags: left lower pop
-    s_ right_lower_pop:
-        number: 3208-21
-        tags: right_lower_pop
-    s_left_upper_pop:
-        number: 3208-18
-        tags: left_upper_pop
-    s_right_upper_pop:
-        number: 3208-20
-        tags: right_upper_pop
-    s_center_drop:
-        number: 3208-19
-        tags: center_drop
-    s_star_rollover_9:
-        number: 1616-10
-        tags: star_rollover_9
-    s_star_rollover_8:
-        number: 1616-9
-        tags: star_rollover_8
-    s_star_rollover_7:
-        number: 1616-11
-        tags: star_rollover_7
-    s_star_rollover_6:
-        number: 1616-3
-        tags: star_rollover_6
-    s_star_rollover_5:
-        number: 1616-2
-        tags: star_rollover_5
-    s_star_rollover_4:
-        number: 1616_12
-        tags: star_rollover_4
-    s_star_rollover_3:
-        number: 1616-4
-        tags: star_rollover_3
-    s_star_rollover_2:
-        number: 1616-14
-        tags: star_rollover_2
-    s_star_rollover_1: 
-        number: 1616-15
-        tags: star_rollover_1
-    s_ bogieland_drain:
-        number: 1616-13
-        tags: bogieland_drain
-    s_KMF_center_target:
-        number: 0804-5
-        tags: KMF_center_target
-    s_eject_hole:
-        number: 1616-5
-        tags: eject_hole
-    s_rollover_lane_a:
-        number: 1616-6
-        tags: rollover_lane_a
-    s_rollover_lane_b:
-        number: 1616-7
-        tags: rollover_lane_b
-    s_rollover_lane_c:
-        number: 0804-0
-        tags: rollover_lane_c
 
-coils:
-    c_flipper_left_main:
-        number: 3208-3
-    c_flipper_left_hold:
-        number: 3208-2
-        allow_enable: true
-    c_flipper_right_main:
-        number: 3208-6
-    c_flipper_right_hold:
-        number: 3208-4
-        allow_enable: true
-    c_flipper_left_upper_level_main:
-        number: 1616-12
-    c_flipper_left_upper_level_hold:
-        number: 1616-13
-        allow_enable: true
-    c_flipper_right_upper_level_main:
-        number: 1616-8
-    c_flipper_right_upper_level_hold:
-        number: 1616-9
-        allow_enable: true
-    c_trough_eject:
-        number: 3208-1
-        platform_settings:
-            recycle_ms: 10ms
-            pwm2_ms: 15ms
+    
 
 playfields:
     playfield:
+        default_source_device: bd_trough
         tags: default
-        default_source_device: None
 
 flippers:
     left_flipper:
@@ -239,29 +73,38 @@ flippers:
         hold_coil: c_flipper_left_hold
         activation_switch: s_left_flipper
         eos_switch: s_left_eos
+        use_eos: true
         enable_events: machine_reset_phase_3
     right_flipper:
         main_coil: c_flipper_right_main
         hold_coil: c_flipper_right_hold
         activation_switch: s_right_flipper
         eos_switch: s_right_eos
+        use_eos: true
         enable_events: machine_reset_phase_3
     left_upper_level_flipper:
         main_coil: c_flipper_left_upper_level_main
         hold_coil: c_flipper_left_upper_level_hold
         activation_switch: s_left_flipper
         eos_switch: s_left_upper_level_flipper_eos
+        use_eos: true
         enable_events: s_left_ramp_exit_active, s_right_ramp_exit_active
+        disable_events: s_wireform_exit_left_opto_active, s_wireform_exit_right_opto_active, ball_will_end
     right_upper_level_flipper:
         main_coil: c_flipper_right_upper_level_main
         hold_coil: c_flipper_right_upper_level_hold
         activation_switch: s_right_flipper
         eos_switch: s_right_upper_level_flipper_eos
+        use_eos: true
         enable_events: s_right_ramp_exit_active, s_left_ramp_exit_active
+        disable_events: s_wireform_exit_left_opto_active, s_wireform_exit_right_opto_active, ball_will_end
 
 
 
-
+config:
+  - config_ball_devices.yaml
+  - config_coils.yaml
+  - config_switches.yaml
 
     
 

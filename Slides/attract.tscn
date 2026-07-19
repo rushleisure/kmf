@@ -1,6 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://cl64tt8cowagn"]
+[gd_scene load_steps=5 format=3 uid="uid://cl64tt8cowagn"]
 
 [ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_lgtbv"]
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_carousel.gd" id="2_nm1hq"]
+[ext_resource type="Texture2D" uid="uid://dounln3l35d26" path="res://addons/mpf-gmc/images/logo_mpf.png" id="3_fq0jm"]
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="4_wf40m"]
 
 [node name="Attract" type="Control"]
 layout_mode = 3
@@ -14,12 +17,37 @@ offset_right = 1280.0
 offset_bottom = 1029.0
 color = Color(0.0313726, 0.0980392, 0.223529, 1)
 
-[node name="Label" type="Label" parent="ColorRect"]
+[node name="MPFCarousel" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("2_nm1hq")
+carousel_name = "attract"
+
+[node name="mpf_logo" type="Sprite2D" parent="MPFCarousel"]
+position = Vector2(647, 523)
+texture = ExtResource("3_fq0jm")
+
+[node name="credits" type="Label" parent="MPFCarousel"]
 layout_mode = 0
-offset_left = 191.0
-offset_top = 350.0
-offset_right = 1088.0
-offset_bottom = 595.0
+offset_left = 9.0
+offset_top = 4.0
+offset_right = 1286.0
+offset_bottom = 1030.0
+theme_override_font_sizes/font_size = 80
+text = " SAMPLE TEXT"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("4_wf40m")
+variable_type = 2
+variable_name = "credits_string"
+
+[node name="title" type="Label" parent="MPFCarousel"]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 4.0
+offset_right = 1283.0
+offset_bottom = 1024.0
 theme_override_font_sizes/font_size = 60
 text = "Welcome To Knuckles McFinn's"
 horizontal_alignment = 1
