@@ -1,0 +1,67 @@
+2026-07-19 18:21:44,028 : INFO : root : Loading config.
+2026-07-19 18:21:44,061 : INFO : ConfigProcessor : Config spec file cache created: C:\Users\yorel\AppData\Local\Temp\config_spec.mpf_cache
+2026-07-19 18:21:44,061 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-07-19 18:21:44,062 : INFO : ConfigProcessor : Loading config from file C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\mpfconfig.yaml.
+2026-07-19 18:21:44,070 : INFO : ConfigProcessor : Loading config: C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\mpfconfig.yaml
+2026-07-19 18:21:44,071 : INFO : ConfigProcessor : Loading config from file C:\Users\yorel\Documents\KMF\KMF Code\config\config.yaml.
+2026-07-19 18:21:44,072 : INFO : ConfigProcessor : Loading config: C:\Users\yorel\Documents\KMF\KMF Code\config\config.yaml
+2026-07-19 18:21:44,074 : INFO : ConfigProcessor : Loading config: C:\Users\yorel\Documents\KMF\KMF Code\config\config_ball_devices.yaml
+2026-07-19 18:21:44,077 : INFO : ConfigProcessor : Loading config: C:\Users\yorel\Documents\KMF\KMF Code\config\config_coils.yaml
+2026-07-19 18:21:44,082 : INFO : ConfigProcessor : Loading config: C:\Users\yorel\Documents\KMF\KMF Code\config\config_switches.yaml
+2026-07-19 18:21:44,084 : INFO : ConfigProcessor : Config file cache created: C:\Users\yorel\AppData\Local\Temp\e4574a669b04b9b63f2509acba37fa15.mpf_cache
+2026-07-19 18:21:44,186 : INFO : ConfigProcessor : Loading config from file C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2026-07-19 18:21:44,187 : INFO : ConfigProcessor : Loading config: C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-07-19 18:21:44,187 : INFO : ConfigProcessor : Loading config from file C:\Users\yorel\Documents\KMF\KMF Code\modes\attract\config\attract.yaml.
+2026-07-19 18:21:44,188 : INFO : ConfigProcessor : Loading config: C:\Users\yorel\Documents\KMF\KMF Code\modes\attract\config\attract.yaml
+2026-07-19 18:21:44,190 : INFO : ConfigProcessor : Config file cache created: C:\Users\yorel\AppData\Local\Temp\a3b95e4c04a1ac62e5a55f9ea03887d0.mpf_cache
+2026-07-19 18:21:44,191 : INFO : ConfigProcessor : Loading config from file C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\modes\game\config\game.yaml.
+2026-07-19 18:21:44,191 : INFO : ConfigProcessor : Loading config: C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\modes\game\config\game.yaml
+2026-07-19 18:21:44,192 : INFO : ConfigProcessor : Config file cache created: C:\Users\yorel\AppData\Local\Temp\e52c7621daabe5c520004c2331533e7f.mpf_cache
+2026-07-19 18:21:44,192 : INFO : ConfigProcessor : Loading config from file C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2026-07-19 18:21:44,193 : INFO : ConfigProcessor : Loading config: C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-07-19 18:21:44,193 : INFO : ConfigProcessor : Loading config from file C:\Users\yorel\Documents\KMF\KMF Code\modes\attract\config\attract.yaml.
+2026-07-19 18:21:44,194 : INFO : ConfigProcessor : Loading config: C:\Users\yorel\Documents\KMF\KMF Code\modes\attract\config\attract.yaml
+2026-07-19 18:21:44,194 : INFO : ConfigProcessor : Config file cache created: C:\Users\yorel\AppData\Local\Temp\a3b95e4c04a1ac62e5a55f9ea03887d0.mpf_cache
+2026-07-19 18:21:44,195 : INFO : ConfigProcessor : Loading config from file C:\Users\yorel\Documents\KMF\KMF Code\modes\base\config\base.yaml.
+2026-07-19 18:21:44,197 : INFO : ConfigProcessor : Loading config: C:\Users\yorel\Documents\KMF\KMF Code\modes\base\config\base.yaml
+2026-07-19 18:21:44,198 : INFO : ConfigProcessor : Config file cache created: C:\Users\yorel\AppData\Local\Temp\adec83306147c6c0299d94bb4067de98.mpf_cache
+2026-07-19 18:21:44,198 : INFO : ConfigProcessor : Loading config from file C:\Users\yorel\Documents\KMF\KMF Code\modes\pops\config\pops.yaml.
+2026-07-19 18:21:44,200 : INFO : ConfigProcessor : Loading config: C:\Users\yorel\Documents\KMF\KMF Code\modes\pops\config\pops.yaml
+2026-07-19 18:21:44,201 : INFO : ConfigProcessor : Config file cache created: C:\Users\yorel\AppData\Local\Temp\00c8d757238c2450cc6de420e2d1696f.mpf_cache
+2026-07-19 18:21:44,201 : INFO : Machine : Mission Pinball Framework Core Engine v0.81.0.dev2
+2026-07-19 18:21:44,202 : INFO : Machine : Command line arguments: {'no_load_cache': True, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-07-19-18-21-44-mpf-MSI.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\yorel\\Documents\\KMF\\KMF Code\\logs\\2026-07-19-18-21-44-mpf-MSI.log'}
+2026-07-19 18:21:44,202 : INFO : Machine : MPF path: C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf
+2026-07-19 18:21:44,202 : INFO : Machine : Machine path: C:\Users\yorel\Documents\KMF\KMF Code
+2026-07-19 18:21:44,202 : INFO : Machine : Platform: win32
+2026-07-19 18:21:44,202 : INFO : Machine : Python executable location: C:\Users\yorel\Documents\mpf-env-80\Scripts\python.exe
+2026-07-19 18:21:44,202 : INFO : Machine : Python version: 3.11.5 (64-bit)
+2026-07-19 18:21:44,203 : INFO : Machine : Initializing MPF...
+2026-07-19 18:21:44,497 : INFO : FAST : Auto-detecting ports for the following connections: ['net']
+2026-07-19 18:21:49,625 : ERROR : FAST [NET] : Failed to connect to any of the specified ports.
+2026-07-19 18:21:49,626 : INFO : Machine : Shutting down...
+2026-07-19 18:21:49,626 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-07-19 18:21:49,732 : ERROR : Machine : Failed to initialize MPF
+Traceback (most recent call last):
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\platforms\fast\fast.py", line 285, in _connect_to_hardware
+    await communicator.connect()
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\platforms\fast\communicators\base.py", line 114, in connect
+    raise SerialException(f"{self} could not connect to a serial port. Is it open in CoolTerm? ;)")
+serial.serialutil.SerialException: [FAST NET] could not connect to a serial port. Is it open in CoolTerm? ;)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\machine.py", line 688, in initialize_mpf
+    raise init.exception()
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\machine.py", line 250, in initialize
+    await self.initialize_core_and_hardware()
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\machine.py", line 246, in initialize_core_and_hardware
+    await self._initialize_platforms()
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\machine.py", line 336, in _initialize_platforms
+    result.result()
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\platforms\fast\fast.py", line 126, in initialize
+    await self._connect_to_hardware()
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\platforms\fast\fast.py", line 292, in _connect_to_hardware
+    raise MpfRuntimeError(f"Could not open serial port {port}. Is something else connected to the port? "
+mpf.exceptions.runtime_error.MpfRuntimeError: Runtime Error in FAST: Could not open serial port net. Is something else connected to the port? Did the port number or your computer change? Do you have permissions to access the port? Error Code: RE-FAST-1 (https://missionpinball.org/latest/logs)
+2026-07-19 18:21:49,742 : INFO : root : MPF run loop ended.

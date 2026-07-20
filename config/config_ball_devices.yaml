@@ -1,11 +1,19 @@
 #config_version=6
 
 ball_devices:
-    bd_plunger:
-        ball_switches: s_plunger_lane
-        mechanical_eject: true
-    bd_trough:
-        ball_switches: s_trough_1_opto, s_trough_2_opto, s_trough_3_opto
-        eject_coil: c_trough_eject
-        eject_targets: bd_plunger
-        tags: trough, home, drain
+  bd_plunger:
+    ball_switches: s_plunger_lane
+    mechanical_eject: true
+    eject_timeouts: 5s
+    
+  bd_trough:
+    ball_switches: s_trough_1_opto, s_trough_2_opto, s_trough_3_opto
+    eject_coil: c_trough_eject
+    eject_targets: bd_plunger
+    eject_timeouts: 3s
+    tags: trough, home, drain
+
+playfields:
+    playfield:
+        default_source_device: bd_plunger
+        tags: default

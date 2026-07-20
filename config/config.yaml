@@ -59,14 +59,6 @@ autofire_coils:
         coil: c_right_front_pop
         switch: s_right_front_pop
 
-
-    
-
-playfields:
-    playfield:
-        default_source_device: bd_trough
-        tags: default
-
 flippers:
     left_flipper:
         main_coil: c_flipper_left_main
@@ -74,26 +66,27 @@ flippers:
         activation_switch: s_left_flipper
         eos_switch: s_left_eos
         use_eos: true
-        enable_events: machine_reset_phase_3
+
     right_flipper:
         main_coil: c_flipper_right_main
         hold_coil: c_flipper_right_hold
         activation_switch: s_right_flipper
         eos_switch: s_right_eos
         use_eos: true
-        enable_events: machine_reset_phase_3
+
     left_upper_level_flipper:
         main_coil: c_flipper_left_upper_level_main
         hold_coil: c_flipper_left_upper_level_hold
-        activation_switch: s_left_flipper
+        activation_switch: s_right_flipper
         eos_switch: s_left_upper_level_flipper_eos
         use_eos: true
         enable_events: s_left_ramp_exit_active, s_right_ramp_exit_active
         disable_events: s_wireform_exit_left_opto_active, s_wireform_exit_right_opto_active, ball_will_end
+
     right_upper_level_flipper:
         main_coil: c_flipper_right_upper_level_main
         hold_coil: c_flipper_right_upper_level_hold
-        activation_switch: s_right_flipper
+        activation_switch: s_left_flipper
         eos_switch: s_right_upper_level_flipper_eos
         use_eos: true
         enable_events: s_right_ramp_exit_active, s_left_ramp_exit_active
@@ -111,3 +104,10 @@ config:
 modes:
   - attract
   - base
+  - pops
+
+
+virtual_platform_start_active_switches:
+  - s_trough_1_opto
+  - s_trough_2_opto
+  - s_trough_3_opto

@@ -1,0 +1,53 @@
+2026-07-18 20:48:32,690 : INFO : root : Loading config.
+2026-07-18 20:48:32,694 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-07-18 20:48:32,695 : INFO : ConfigProcessor : Loading config from cache: C:\Users\yorel\AppData\Local\Temp\e4574a669b04b9b63f2509acba37fa15.mpf_cache
+2026-07-18 20:48:32,758 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-07-18 20:48:32,759 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-07-18 20:48:32,759 : INFO : ConfigProcessor : Loading config from cache: C:\Users\yorel\AppData\Local\Temp\a3b95e4c04a1ac62e5a55f9ea03887d0.mpf_cache
+2026-07-18 20:48:32,760 : DEBUG : YamlMultifileConfigLoader : Loading mode game from C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\modes\game\config\game.yaml
+2026-07-18 20:48:32,761 : INFO : ConfigProcessor : Loading config from cache: C:\Users\yorel\AppData\Local\Temp\e52c7621daabe5c520004c2331533e7f.mpf_cache
+2026-07-18 20:48:32,763 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-07-18 20:48:32,763 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-07-18 20:48:32,763 : INFO : ConfigProcessor : Loading config from cache: C:\Users\yorel\AppData\Local\Temp\a3b95e4c04a1ac62e5a55f9ea03887d0.mpf_cache
+2026-07-18 20:48:32,764 : DEBUG : YamlMultifileConfigLoader : Loading mode base from C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\modes\base\config\base.yaml
+2026-07-18 20:48:32,765 : INFO : ConfigProcessor : Loading config from cache: C:\Users\yorel\AppData\Local\Temp\adec83306147c6c0299d94bb4067de98.mpf_cache
+2026-07-18 20:48:32,766 : INFO : Machine : Mission Pinball Framework Core Engine v0.81.0.dev2
+2026-07-18 20:48:32,766 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-07-18-20-48-32-mpf-MSI.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 10, 'consoleloglevel': 10, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\yorel\\Documents\\KMF\\KMF Code\\logs\\2026-07-18-20-48-32-mpf-MSI.log'}
+2026-07-18 20:48:32,766 : INFO : Machine : MPF path: C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf
+2026-07-18 20:48:32,766 : INFO : Machine : Machine path: C:\Users\yorel\Documents\KMF\KMF Code
+2026-07-18 20:48:32,766 : INFO : Machine : Platform: win32
+2026-07-18 20:48:32,766 : INFO : Machine : Python executable location: C:\Users\yorel\Documents\mpf-env-80\Scripts\python.exe
+2026-07-18 20:48:32,766 : INFO : Machine : Python version: 3.11.5 (64-bit)
+2026-07-18 20:48:32,767 : DEBUG : asyncio : Using proactor: IocpProactor
+2026-07-18 20:48:32,768 : INFO : Machine : Initializing MPF...
+2026-07-18 20:48:32,891 : DEBUG : TextUi : Text UI is disabled. TUI option setting: False, Asciimatics loaded: <class 'asciimatics.scene.Scene'>
+2026-07-18 20:48:32,898 : INFO : FAST : Auto-detecting ports for the following connections: ['net']
+2026-07-18 20:48:33,059 : ERROR : FAST [NET] : Failed to connect to any of the specified ports.
+2026-07-18 20:48:33,059 : INFO : Machine : Shutting down...
+2026-07-18 20:48:33,059 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-07-18 20:48:33,168 : DEBUG : FAST [NET] : Stop called on serial connection NET
+2026-07-18 20:48:33,169 : ERROR : Machine : Failed to initialize MPF
+Traceback (most recent call last):
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\platforms\fast\fast.py", line 285, in _connect_to_hardware
+    await communicator.connect()
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\platforms\fast\communicators\base.py", line 114, in connect
+    raise SerialException(f"{self} could not connect to a serial port. Is it open in CoolTerm? ;)")
+serial.serialutil.SerialException: [FAST NET] could not connect to a serial port. Is it open in CoolTerm? ;)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\machine.py", line 688, in initialize_mpf
+    raise init.exception()
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\machine.py", line 250, in initialize
+    await self.initialize_core_and_hardware()
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\machine.py", line 246, in initialize_core_and_hardware
+    await self._initialize_platforms()
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\machine.py", line 336, in _initialize_platforms
+    result.result()
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\platforms\fast\fast.py", line 126, in initialize
+    await self._connect_to_hardware()
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\platforms\fast\fast.py", line 292, in _connect_to_hardware
+    raise MpfRuntimeError(f"Could not open serial port {port}. Is something else connected to the port? "
+mpf.exceptions.runtime_error.MpfRuntimeError: Runtime Error in FAST: Could not open serial port net. Is something else connected to the port? Did the port number or your computer change? Do you have permissions to access the port? Error Code: RE-FAST-1 (https://missionpinball.org/latest/logs)
+2026-07-18 20:48:33,178 : INFO : root : MPF run loop ended.

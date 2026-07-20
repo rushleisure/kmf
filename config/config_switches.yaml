@@ -4,7 +4,7 @@ switches:
 # cabinet I/O 0024= order 1
     s_start:
         number: cab-11
-        tags: start_button
+        tags: start
     s_left_flipper:
         number: cab-10
         debounce: quick
@@ -177,14 +177,17 @@ switches:
         tags: right_wireform
     s_trough_1_opto:
         number: 3208-0
+        type: NC
         tags: trough_position_1
     s_trough_2_opto:
         number: 3208-1
+        type: NC
         tags: trough_position_2
     s_trough_3_opto:
         number: 3208-2
+        type: NC
         tags: trough_position_3
     s_plunger_lane:
         number: 3208-5
-        type: NC
+        tags: plunger
 

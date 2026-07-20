@@ -1,0 +1,71 @@
+2026-07-15 08:58:34,688 : INFO : root : Loading config.
+2026-07-15 08:58:34,694 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-07-15 08:58:34,695 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\yorel\Documents\KMF\KMF Code\config\config.yaml
+2026-07-15 08:58:34,695 : INFO : ConfigProcessor : Loading config from file C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\mpfconfig.yaml.
+2026-07-15 08:58:34,708 : INFO : ConfigProcessor : Loading config: C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\mpfconfig.yaml
+2026-07-15 08:58:34,708 : INFO : ConfigProcessor : Loading config from file C:\Users\yorel\Documents\KMF\KMF Code\config\config.yaml.
+2026-07-15 08:58:34,714 : INFO : ConfigProcessor : Loading config: C:\Users\yorel\Documents\KMF\KMF Code\config\config.yaml
+2026-07-15 08:58:34,716 : INFO : ConfigProcessor : Config file cache created: C:\Users\yorel\AppData\Local\Temp\e4574a669b04b9b63f2509acba37fa15.mpf_cache
+2026-07-15 08:58:34,785 : INFO : ConfigProcessor : Loading config from cache: C:\Users\yorel\AppData\Local\Temp\a3b95e4c04a1ac62e5a55f9ea03887d0.mpf_cache
+2026-07-15 08:58:34,785 : INFO : ConfigProcessor : Loading config from cache: C:\Users\yorel\AppData\Local\Temp\e52c7621daabe5c520004c2331533e7f.mpf_cache
+2026-07-15 08:58:34,786 : INFO : ConfigProcessor : Loading config from cache: C:\Users\yorel\AppData\Local\Temp\a3b95e4c04a1ac62e5a55f9ea03887d0.mpf_cache
+2026-07-15 08:58:34,787 : INFO : ConfigProcessor : Loading config from cache: C:\Users\yorel\AppData\Local\Temp\adec83306147c6c0299d94bb4067de98.mpf_cache
+2026-07-15 08:58:34,788 : INFO : Machine : Mission Pinball Framework Core Engine v0.81.0.dev2
+2026-07-15 08:58:34,788 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-07-15-08-58-34-mpf-MSI.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\yorel\\Documents\\KMF\\KMF Code\\logs\\2026-07-15-08-58-34-mpf-MSI.log'}
+2026-07-15 08:58:34,788 : INFO : Machine : MPF path: C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf
+2026-07-15 08:58:34,788 : INFO : Machine : Machine path: C:\Users\yorel\Documents\KMF\KMF Code
+2026-07-15 08:58:34,788 : INFO : Machine : Platform: win32
+2026-07-15 08:58:34,788 : INFO : Machine : Python executable location: C:\Users\yorel\Documents\mpf-env-80\Scripts\python.exe
+2026-07-15 08:58:34,788 : INFO : Machine : Python version: 3.11.5 (64-bit)
+2026-07-15 08:58:34,789 : INFO : Machine : Initializing MPF...
+2026-07-15 08:58:35,031 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-07-15 08:58:35,052 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-07-15 08:58:35,052 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.81.0.dev2', 'prev_value': None, 'change': True}
+2026-07-15 08:58:35,052 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.81.0.dev2, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-07-15 08:58:35,052 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.5', 'prev_value': None, 'change': True}
+2026-07-15 08:58:35,108 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.26200-SP0', 'prev_value': None, 'change': True}
+2026-07-15 08:58:35,109 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-07-15 08:58:35,109 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2026-07-15 08:58:35,109 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26200', 'prev_value': None, 'change': True}
+2026-07-15 08:58:35,109 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-07-15 08:58:35,109 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\yorel\\Documents\\KMF\\KMF Code\\logs\\2026-07-15-08-58-34-mpf-MSI.log', 'prev_value': None, 'change': True}
+2026-07-15 08:58:35,109 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-07-15 08:58:35,139 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-07-15 08:58:35,141 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe...to_active"?')>)
+handle: <Handle EventManager._queue_task_done(<Task finishe...to_active"?')>)>
+Traceback (most recent call last):
+  File "C:\Users\yorel\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\device_manager.py", line 241, in create_machinewide_device_control_events
+    self.machine.events.add_handler(
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\events.py", line 219, in add_handler
+    self.raise_config_error('Switch name "{name}" name used as event handler for {handler}. '
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\logging.py", line 175, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in EventManager: Switch name "s_wireform_exit_left_opto" name used as event handler for <bound method Flipper.event_disable of <flipper.left_upper_level_flipper>>. Did you mean "s_wireform_exit_left_opto_active"? Error Code: CFE-EventManager-1 (https://missionpinball.org/latest/logs)
+2026-07-15 08:58:35,145 : INFO : Machine : Starting the main run loop with active modes: []
+2026-07-15 08:58:35,145 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-07-15 08:58:35,146 : INFO : Machine : Shutting down...
+2026-07-15 08:58:35,146 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-07-15 08:58:36,135 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\yorel\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\device_manager.py", line 241, in create_machinewide_device_control_events
+    self.machine.events.add_handler(
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\events.py", line 219, in add_handler
+    self.raise_config_error('Switch name "{name}" name used as event handler for {handler}. '
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\logging.py", line 175, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in EventManager: Switch name "s_wireform_exit_left_opto" name used as event handler for <bound method Flipper.event_disable of <flipper.left_upper_level_flipper>>. Did you mean "s_wireform_exit_left_opto_active"? Error Code: CFE-EventManager-1 (https://missionpinball.org/latest/logs)
+2026-07-15 08:58:36,141 : INFO : root : MPF run loop ended.

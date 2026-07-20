@@ -1,0 +1,7 @@
+2026-07-05 10:01:23,144 : INFO : root : Loading config.
+2026-07-05 10:01:23,148 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-07-05 10:01:23,149 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\yorel\Documents\KMF\KMF Code\config\config.yaml
+2026-07-05 10:01:23,149 : INFO : ConfigProcessor : Loading config from file C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\mpfconfig.yaml.
+2026-07-05 10:01:23,161 : INFO : ConfigProcessor : Loading config: C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\mpfconfig.yaml
+2026-07-05 10:01:23,162 : INFO : ConfigProcessor : Loading config from file C:\Users\yorel\Documents\KMF\KMF Code\config\config.yaml.
+2026-07-05 10:01:23,165 : INFO : ConfigProcessor : Loading config: C:\Users\yorel\Documents\KMF\KMF Code\config\config.yaml

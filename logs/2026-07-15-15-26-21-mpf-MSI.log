@@ -1,0 +1,467 @@
+2026-07-15 15:26:21,503 : INFO : root : Loading config.
+2026-07-15 15:26:21,505 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-07-15 15:26:21,506 : INFO : ConfigProcessor : Loading config from cache: C:\Users\yorel\AppData\Local\Temp\e4574a669b04b9b63f2509acba37fa15.mpf_cache
+2026-07-15 15:26:21,583 : INFO : ConfigProcessor : Loading config from cache: C:\Users\yorel\AppData\Local\Temp\a3b95e4c04a1ac62e5a55f9ea03887d0.mpf_cache
+2026-07-15 15:26:21,584 : INFO : ConfigProcessor : Loading config from cache: C:\Users\yorel\AppData\Local\Temp\e52c7621daabe5c520004c2331533e7f.mpf_cache
+2026-07-15 15:26:21,584 : INFO : ConfigProcessor : Loading config from cache: C:\Users\yorel\AppData\Local\Temp\a3b95e4c04a1ac62e5a55f9ea03887d0.mpf_cache
+2026-07-15 15:26:21,585 : INFO : ConfigProcessor : Loading config from cache: C:\Users\yorel\AppData\Local\Temp\adec83306147c6c0299d94bb4067de98.mpf_cache
+2026-07-15 15:26:21,586 : INFO : Machine : Mission Pinball Framework Core Engine v0.81.0.dev2
+2026-07-15 15:26:21,586 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-07-15-15-26-21-mpf-MSI.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\yorel\\Documents\\KMF\\KMF Code\\logs\\2026-07-15-15-26-21-mpf-MSI.log'}
+2026-07-15 15:26:21,586 : INFO : Machine : MPF path: C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf
+2026-07-15 15:26:21,586 : INFO : Machine : Machine path: C:\Users\yorel\Documents\KMF\KMF Code
+2026-07-15 15:26:21,586 : INFO : Machine : Platform: win32
+2026-07-15 15:26:21,586 : INFO : Machine : Python executable location: C:\Users\yorel\Documents\mpf-env-80\Scripts\python.exe
+2026-07-15 15:26:21,586 : INFO : Machine : Python version: 3.11.5 (64-bit)
+2026-07-15 15:26:21,587 : INFO : Machine : Initializing MPF...
+2026-07-15 15:26:21,747 : INFO : FAST : Auto-detecting ports for the following connections: ['net']
+2026-07-15 15:26:21,774 : INFO : FAST : Detected NET on port COM4
+2026-07-15 15:26:21,886 : INFO : FAST [NET] : Trying to connect to COM4 at 921600bps
+2026-07-15 15:26:21,893 : INFO : FAST [NET] : Connected to COM4 at 921600bps
+2026-07-15 15:26:21,897 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-07-15 15:26:21,929 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+2026-07-15 15:26:21,944 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-07-15 15:26:21,959 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-07-15 15:26:21,962 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2026-07-15 15:26:21,962 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-07-15 15:26:21,988 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-07-15 15:26:21,988 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.81.0.dev2', 'prev_value': None, 'change': True}
+2026-07-15 15:26:21,988 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.81.0.dev2, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-07-15 15:26:21,988 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.5', 'prev_value': None, 'change': True}
+2026-07-15 15:26:22,039 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.26200-SP0', 'prev_value': None, 'change': True}
+2026-07-15 15:26:22,039 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-07-15 15:26:22,039 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2026-07-15 15:26:22,039 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26200', 'prev_value': None, 'change': True}
+2026-07-15 15:26:22,039 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-07-15 15:26:22,039 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\yorel\\Documents\\KMF\\KMF Code\\logs\\2026-07-15-15-26-21-mpf-MSI.log', 'prev_value': None, 'change': True}
+2026-07-15 15:26:22,039 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-07-15 15:26:25,864 : INFO : SwitchController : <<<<<<< 's_ left_spinner_opto' active >>>>>>>
+2026-07-15 15:26:25,864 : INFO : SwitchController : <<<<<<< 's_right_spinner_opto' active >>>>>>>
+2026-07-15 15:26:25,864 : INFO : SwitchController : <<<<<<< 's_left_drop' active >>>>>>>
+2026-07-15 15:26:25,865 : INFO : SwitchController : <<<<<<< 's_right_drop' active >>>>>>>
+2026-07-15 15:26:25,865 : INFO : SwitchController : <<<<<<< 's_center_drop' active >>>>>>>
+2026-07-15 15:26:25,865 : INFO : SwitchController : <<<<<<< 's_trough_1_opto' active >>>>>>>
+2026-07-15 15:26:25,865 : INFO : SwitchController : <<<<<<< 's_trough_2_opto' active >>>>>>>
+2026-07-15 15:26:25,865 : INFO : SwitchController : <<<<<<< 's_trough_3_opto' active >>>>>>>
+2026-07-15 15:26:25,866 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-07-15 15:26:25,867 : INFO : SwitchController : Found active switch: (57, [FAST Platform Interface]) <switch.s_ left_spinner_opto>
+2026-07-15 15:26:25,867 : INFO : SwitchController : Found active switch: (56, [FAST Platform Interface]) <switch.s_right_spinner_opto>
+2026-07-15 15:26:25,867 : INFO : SwitchController : Found active switch: (64, [FAST Platform Interface]) <switch.s_left_drop>
+2026-07-15 15:26:25,867 : INFO : SwitchController : Found active switch: (47, [FAST Platform Interface]) <switch.s_right_drop>
+2026-07-15 15:26:25,867 : INFO : SwitchController : Found active switch: (43, [FAST Platform Interface]) <switch.s_center_drop>
+2026-07-15 15:26:25,868 : INFO : SwitchController : Found active switch: (24, [FAST Platform Interface]) <switch.s_trough_1_opto>
+2026-07-15 15:26:25,868 : INFO : SwitchController : Found active switch: (25, [FAST Platform Interface]) <switch.s_trough_2_opto>
+2026-07-15 15:26:25,868 : INFO : SwitchController : Found active switch: (26, [FAST Platform Interface]) <switch.s_trough_3_opto>
+2026-07-15 15:26:25,899 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2026-07-15 15:26:25,902 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2026-07-15 15:26:25,905 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_sling'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,905 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_3_bank_standup_1_lowest'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,905 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_standup_target_at_ramp_entry'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,905 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,905 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_KMF_center_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,905 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_upper_level_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,906 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_front_pop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,906 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_star_rollover_7'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,906 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_wireform_exit_right_opto'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,906 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_3_bank_standup_3_highest'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,906 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_upper_level_flipper_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,906 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_3_bank_standup_1_lowest'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,906 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_lane_c'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,906 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_star_rollover_5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,906 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ bogieland_drain'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,906 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1_opto'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,906 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3_opto'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,906 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,906 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_sling'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,906 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_star_rollover_8'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,906 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_star_rollover_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,907 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_upper_level_flipper_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,907 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_star_rollover_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,907 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_lane_b'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,907 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,907 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_balcony_bow'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,907 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_star_rollover_9'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,907 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eject_hole'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,907 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_standup_target_at_ramp_entry'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,907 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_rear_pop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,907 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_star_rollover_4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,907 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_lane_a'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,908 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,908 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,908 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_ramp_exit'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,908 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,908 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,908 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_center_drop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,908 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_rear_pop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,908 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_wireform_exit_left_opto'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,908 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_upper_level_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,908 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,908 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,908 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_drop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,908 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_drop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,908 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ left_spinner_opto'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,908 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_spinner_opto'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,908 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2_opto'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,908 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_star_rollover_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,908 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_3_bank_standup_3_highest'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,908 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_balcony_bow'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,909 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_3_bank_standup_2_middle'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,909 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_3_bank_standup_2_middle'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,909 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_front_pop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,909 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_ramp_exit'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,909 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_star_rollover_6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,909 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,909 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,909 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2026-07-15 15:26:25,910 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2026-07-15 15:26:25,910 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2026-07-15 15:26:25,911 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2026-07-15 15:26:25,912 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2026-07-15 15:26:25,915 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2026-07-15 15:26:25,918 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2026-07-15 15:26:25,918 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2026-07-15 15:26:25,919 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2026-07-15 15:26:25,919 : INFO : Mode.attract : Started. Priority: 10
+2026-07-15 15:26:25,919 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-07-15 15:26:25,919 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2026-07-15 15:26:25,919 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2026-07-15 15:26:25,921 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2026-07-15 15:26:35,791 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' active >>>>>>>
+2026-07-15 15:26:35,791 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-07-15 15:26:35,807 : INFO : SwitchController : <<<<<<< 's_left_eos' active >>>>>>>
+2026-07-15 15:26:35,884 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-07-15 15:26:35,884 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:26:35,963 : INFO : SwitchController : <<<<<<< 's_left_eos' inactive >>>>>>>
+2026-07-15 15:26:38,756 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-07-15 15:26:38,756 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' active >>>>>>>
+2026-07-15 15:26:38,773 : INFO : SwitchController : <<<<<<< 's_right_eos' active >>>>>>>
+2026-07-15 15:26:38,897 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-07-15 15:26:38,898 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:26:38,973 : INFO : SwitchController : <<<<<<< 's_right_eos' inactive >>>>>>>
+2026-07-15 15:26:39,207 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-07-15 15:26:39,207 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' active >>>>>>>
+2026-07-15 15:26:39,239 : INFO : SwitchController : <<<<<<< 's_right_eos' active >>>>>>>
+2026-07-15 15:26:39,350 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:26:39,351 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-07-15 15:26:39,428 : INFO : SwitchController : <<<<<<< 's_right_eos' inactive >>>>>>>
+2026-07-15 15:26:39,694 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' active >>>>>>>
+2026-07-15 15:26:39,694 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-07-15 15:26:39,724 : INFO : SwitchController : <<<<<<< 's_left_eos' active >>>>>>>
+2026-07-15 15:26:39,847 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-07-15 15:26:39,864 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:26:39,942 : INFO : SwitchController : <<<<<<< 's_left_eos' inactive >>>>>>>
+2026-07-15 15:26:40,706 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-07-15 15:26:40,706 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' active >>>>>>>
+2026-07-15 15:26:40,722 : INFO : SwitchController : <<<<<<< 's_right_eos' active >>>>>>>
+2026-07-15 15:26:40,832 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:26:40,833 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-07-15 15:26:40,910 : INFO : SwitchController : <<<<<<< 's_right_eos' inactive >>>>>>>
+2026-07-15 15:26:49,471 : INFO : SwitchController : <<<<<<< 's_right_inlane' active >>>>>>>
+2026-07-15 15:26:49,754 : INFO : SwitchController : <<<<<<< 's_right_inlane' inactive >>>>>>>
+2026-07-15 15:26:50,581 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' active >>>>>>>
+2026-07-15 15:26:50,581 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-07-15 15:26:50,581 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-07-15 15:26:50,583 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-07-15 15:26:50,612 : INFO : SwitchController : <<<<<<< 's_right_eos' active >>>>>>>
+2026-07-15 15:26:50,753 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:26:50,756 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-07-15 15:26:50,847 : INFO : SwitchController : <<<<<<< 's_right_eos' inactive >>>>>>>
+2026-07-15 15:26:51,722 : INFO : SwitchController : <<<<<<< 's_ left_spinner_opto' inactive >>>>>>>
+2026-07-15 15:26:51,860 : INFO : SwitchController : <<<<<<< 's_ left_spinner_opto' active >>>>>>>
+2026-07-15 15:26:53,610 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' active >>>>>>>
+2026-07-15 15:26:53,611 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-07-15 15:26:53,643 : INFO : SwitchController : <<<<<<< 's_left_eos' active >>>>>>>
+2026-07-15 15:26:53,999 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-07-15 15:26:54,000 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:26:54,079 : INFO : SwitchController : <<<<<<< 's_left_eos' inactive >>>>>>>
+2026-07-15 15:26:54,109 : INFO : SwitchController : <<<<<<< 's_left_3_bank_standup_2_middle' active >>>>>>>
+2026-07-15 15:26:54,109 : INFO : SwitchController : <<<<<<< 's_left_3_bank_standup_2_middle' inactive >>>>>>>
+2026-07-15 15:26:54,219 : INFO : SwitchController : <<<<<<< 's_right_3_bank_standup_1_lowest' active >>>>>>>
+2026-07-15 15:26:54,219 : INFO : SwitchController : <<<<<<< 's_right_3_bank_standup_1_lowest' inactive >>>>>>>
+2026-07-15 15:26:55,233 : INFO : SwitchController : <<<<<<< 's_left_inlane' active >>>>>>>
+2026-07-15 15:26:55,402 : INFO : SwitchController : <<<<<<< 's_left_inlane' inactive >>>>>>>
+2026-07-15 15:26:55,977 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-07-15 15:26:55,977 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' active >>>>>>>
+2026-07-15 15:26:56,007 : INFO : SwitchController : <<<<<<< 's_left_eos' active >>>>>>>
+2026-07-15 15:26:56,538 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-07-15 15:26:56,553 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:26:56,630 : INFO : SwitchController : <<<<<<< 's_left_eos' inactive >>>>>>>
+2026-07-15 15:27:07,275 : INFO : SwitchController : <<<<<<< 's_KMF_center_target' active >>>>>>>
+2026-07-15 15:27:07,275 : INFO : SwitchController : <<<<<<< 's_KMF_center_target' inactive >>>>>>>
+2026-07-15 15:27:07,385 : INFO : SwitchController : <<<<<<< 's_right_rear_pop' active >>>>>>>
+2026-07-15 15:27:07,479 : INFO : SwitchController : <<<<<<< 's_right_rear_pop' inactive >>>>>>>
+2026-07-15 15:27:07,826 : INFO : SwitchController : <<<<<<< 's_left_front_pop' active >>>>>>>
+2026-07-15 15:27:07,919 : INFO : SwitchController : <<<<<<< 's_left_front_pop' inactive >>>>>>>
+2026-07-15 15:27:10,062 : INFO : SwitchController : <<<<<<< 's_left_front_pop' active >>>>>>>
+2026-07-15 15:27:10,206 : INFO : SwitchController : <<<<<<< 's_left_front_pop' inactive >>>>>>>
+2026-07-15 15:27:13,448 : INFO : SwitchController : <<<<<<< 's_left_ramp_exit' active >>>>>>>
+2026-07-15 15:27:13,448 : INFO : EventManager : Event: ======'s_left_ramp_exit_active'====== Args={}
+2026-07-15 15:27:13,620 : INFO : SwitchController : <<<<<<< 's_left_ramp_exit' inactive >>>>>>>
+2026-07-15 15:27:14,118 : INFO : SwitchController : <<<<<<< 's_wireform_exit_left_opto' active >>>>>>>
+2026-07-15 15:27:14,119 : INFO : EventManager : Event: ======'s_wireform_exit_left_opto_active'====== Args={}
+2026-07-15 15:27:14,195 : INFO : SwitchController : <<<<<<< 's_wireform_exit_left_opto' inactive >>>>>>>
+2026-07-15 15:27:16,727 : INFO : SwitchController : <<<<<<< 's_left_ramp_exit' active >>>>>>>
+2026-07-15 15:27:16,728 : INFO : EventManager : Event: ======'s_left_ramp_exit_active'====== Args={}
+2026-07-15 15:27:16,883 : INFO : SwitchController : <<<<<<< 's_left_ramp_exit' inactive >>>>>>>
+2026-07-15 15:27:18,842 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-07-15 15:27:18,842 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' active >>>>>>>
+2026-07-15 15:27:18,874 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper_eos' active >>>>>>>
+2026-07-15 15:27:18,874 : INFO : SwitchController : <<<<<<< 's_left_eos' active >>>>>>>
+2026-07-15 15:27:18,968 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-07-15 15:27:18,968 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:27:19,045 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper_eos' inactive >>>>>>>
+2026-07-15 15:27:19,062 : INFO : SwitchController : <<<<<<< 's_left_eos' inactive >>>>>>>
+2026-07-15 15:27:19,466 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-07-15 15:27:19,466 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' active >>>>>>>
+2026-07-15 15:27:19,481 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper_eos' active >>>>>>>
+2026-07-15 15:27:19,481 : INFO : SwitchController : <<<<<<< 's_left_eos' active >>>>>>>
+2026-07-15 15:27:19,591 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-07-15 15:27:19,591 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:27:19,669 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper_eos' inactive >>>>>>>
+2026-07-15 15:27:19,671 : INFO : SwitchController : <<<<<<< 's_left_eos' inactive >>>>>>>
+2026-07-15 15:27:20,789 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' active >>>>>>>
+2026-07-15 15:27:20,789 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-07-15 15:27:20,820 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper_eos' active >>>>>>>
+2026-07-15 15:27:20,821 : INFO : SwitchController : <<<<<<< 's_left_eos' active >>>>>>>
+2026-07-15 15:27:20,885 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:20,886 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:20,899 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:20,900 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:20,915 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-07-15 15:27:20,916 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:27:20,931 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:20,931 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:20,931 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:20,933 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:20,945 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:20,946 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:20,961 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:20,962 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:20,977 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:20,977 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:20,992 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper_eos' inactive >>>>>>>
+2026-07-15 15:27:21,008 : INFO : SwitchController : <<<<<<< 's_left_eos' inactive >>>>>>>
+2026-07-15 15:27:21,055 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:21,069 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:21,084 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:21,099 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:21,099 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:21,115 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:21,115 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:21,131 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:21,131 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:21,146 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:21,162 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:22,615 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:22,956 : INFO : SwitchController : <<<<<<< 's_wireform_exit_left_opto' active >>>>>>>
+2026-07-15 15:27:22,957 : INFO : EventManager : Event: ======'s_wireform_exit_left_opto_active'====== Args={}
+2026-07-15 15:27:23,049 : INFO : SwitchController : <<<<<<< 's_wireform_exit_left_opto' inactive >>>>>>>
+2026-07-15 15:27:23,206 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-07-15 15:27:23,207 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' active >>>>>>>
+2026-07-15 15:27:23,222 : INFO : SwitchController : <<<<<<< 's_left_eos' active >>>>>>>
+2026-07-15 15:27:23,267 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:23,267 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:23,299 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:23,300 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:23,301 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:23,331 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:23,332 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:23,361 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-07-15 15:27:23,362 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:27:23,456 : INFO : SwitchController : <<<<<<< 's_left_eos' inactive >>>>>>>
+2026-07-15 15:27:23,503 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:23,518 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:23,628 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:23,629 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:24,032 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:24,033 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:24,079 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:24,080 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:24,095 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:24,110 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:24,486 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:24,596 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:24,612 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:24,613 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:24,627 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:24,644 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:24,645 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:24,677 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:24,721 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:24,722 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:24,752 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:24,753 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:25,018 : INFO : SwitchController : <<<<<<< 's_left_inlane' active >>>>>>>
+2026-07-15 15:27:25,252 : INFO : SwitchController : <<<<<<< 's_left_inlane' inactive >>>>>>>
+2026-07-15 15:27:27,293 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:27,309 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:34,291 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' active >>>>>>>
+2026-07-15 15:27:34,292 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-07-15 15:27:34,323 : INFO : SwitchController : <<<<<<< 's_left_eos' active >>>>>>>
+2026-07-15 15:27:34,323 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:34,355 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:34,356 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:34,358 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:34,434 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-07-15 15:27:34,435 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:27:34,512 : INFO : SwitchController : <<<<<<< 's_left_eos' inactive >>>>>>>
+2026-07-15 15:27:34,749 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-07-15 15:27:34,750 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' active >>>>>>>
+2026-07-15 15:27:34,765 : INFO : SwitchController : <<<<<<< 's_right_eos' active >>>>>>>
+2026-07-15 15:27:34,766 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:34,813 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:34,937 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:27:34,938 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-07-15 15:27:35,014 : INFO : SwitchController : <<<<<<< 's_right_eos' inactive >>>>>>>
+2026-07-15 15:27:35,431 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' active >>>>>>>
+2026-07-15 15:27:35,432 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-07-15 15:27:35,433 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-07-15 15:27:35,434 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2026-07-15 15:27:35,434 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' active >>>>>>>
+2026-07-15 15:27:35,447 : INFO : SwitchController : <<<<<<< 's_left_eos' active >>>>>>>
+2026-07-15 15:27:35,449 : INFO : SwitchController : <<<<<<< 's_right_eos' active >>>>>>>
+2026-07-15 15:27:35,450 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:35,698 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:27:35,698 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-07-15 15:27:35,698 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2026-07-15 15:27:35,713 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-07-15 15:27:35,714 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2026-07-15 15:27:35,714 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:27:35,792 : INFO : SwitchController : <<<<<<< 's_right_eos' inactive >>>>>>>
+2026-07-15 15:27:35,794 : INFO : SwitchController : <<<<<<< 's_left_eos' inactive >>>>>>>
+2026-07-15 15:27:36,813 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-07-15 15:27:36,813 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' active >>>>>>>
+2026-07-15 15:27:36,844 : INFO : SwitchController : <<<<<<< 's_right_eos' active >>>>>>>
+2026-07-15 15:27:37,066 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:27:37,066 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-07-15 15:27:37,142 : INFO : SwitchController : <<<<<<< 's_right_eos' inactive >>>>>>>
+2026-07-15 15:27:37,426 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-07-15 15:27:37,427 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' active >>>>>>>
+2026-07-15 15:27:37,456 : INFO : SwitchController : <<<<<<< 's_right_eos' active >>>>>>>
+2026-07-15 15:27:37,456 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' active >>>>>>>
+2026-07-15 15:27:37,456 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-07-15 15:27:37,456 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2026-07-15 15:27:37,486 : INFO : SwitchController : <<<<<<< 's_left_eos' active >>>>>>>
+2026-07-15 15:27:37,502 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:37,502 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:37,503 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:37,814 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-07-15 15:27:37,815 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2026-07-15 15:27:37,815 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:27:37,816 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:27:37,816 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-07-15 15:27:37,816 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2026-07-15 15:27:37,906 : INFO : SwitchController : <<<<<<< 's_left_eos' inactive >>>>>>>
+2026-07-15 15:27:37,907 : INFO : SwitchController : <<<<<<< 's_right_eos' inactive >>>>>>>
+2026-07-15 15:27:39,219 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-07-15 15:27:39,220 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' active >>>>>>>
+2026-07-15 15:27:39,220 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' active >>>>>>>
+2026-07-15 15:27:39,220 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-07-15 15:27:39,221 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2026-07-15 15:27:39,236 : INFO : SwitchController : <<<<<<< 's_right_eos' active >>>>>>>
+2026-07-15 15:27:39,236 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:39,250 : INFO : SwitchController : <<<<<<< 's_left_eos' active >>>>>>>
+2026-07-15 15:27:39,281 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:39,466 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:27:39,467 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-07-15 15:27:39,467 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2026-07-15 15:27:39,497 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-07-15 15:27:39,497 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2026-07-15 15:27:39,497 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:27:39,544 : INFO : SwitchController : <<<<<<< 's_right_eos' inactive >>>>>>>
+2026-07-15 15:27:39,575 : INFO : SwitchController : <<<<<<< 's_left_eos' inactive >>>>>>>
+2026-07-15 15:27:44,982 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-07-15 15:27:44,982 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' active >>>>>>>
+2026-07-15 15:27:45,012 : INFO : SwitchController : <<<<<<< 's_left_eos' active >>>>>>>
+2026-07-15 15:27:45,573 : INFO : SwitchController : <<<<<<< 's_left_rear_pop' active >>>>>>>
+2026-07-15 15:27:45,589 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-07-15 15:27:45,589 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:27:45,635 : INFO : SwitchController : <<<<<<< 's_left_rear_pop' inactive >>>>>>>
+2026-07-15 15:27:45,682 : INFO : SwitchController : <<<<<<< 's_left_eos' inactive >>>>>>>
+2026-07-15 15:27:47,420 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-07-15 15:27:47,421 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' active >>>>>>>
+2026-07-15 15:27:47,450 : INFO : SwitchController : <<<<<<< 's_right_eos' active >>>>>>>
+2026-07-15 15:27:47,451 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:47,482 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:47,636 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' active >>>>>>>
+2026-07-15 15:27:47,637 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-07-15 15:27:47,637 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2026-07-15 15:27:47,651 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:27:47,667 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-07-15 15:27:47,667 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2026-07-15 15:27:47,670 : INFO : SwitchController : <<<<<<< 's_left_eos' active >>>>>>>
+2026-07-15 15:27:47,744 : INFO : SwitchController : <<<<<<< 's_right_eos' inactive >>>>>>>
+2026-07-15 15:27:47,933 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:47,936 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:48,250 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:48,251 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:48,406 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-07-15 15:27:48,407 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2026-07-15 15:27:48,407 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:27:48,485 : INFO : SwitchController : <<<<<<< 's_left_eos' inactive >>>>>>>
+2026-07-15 15:27:51,227 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-07-15 15:27:51,228 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' active >>>>>>>
+2026-07-15 15:27:51,228 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-07-15 15:27:51,228 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-07-15 15:27:51,259 : INFO : SwitchController : <<<<<<< 's_right_eos' active >>>>>>>
+2026-07-15 15:27:51,632 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:27:51,633 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-07-15 15:27:51,711 : INFO : SwitchController : <<<<<<< 's_right_eos' inactive >>>>>>>
+2026-07-15 15:27:52,090 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:52,091 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:52,184 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:52,373 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:52,607 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' active >>>>>>>
+2026-07-15 15:27:52,607 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-07-15 15:27:52,638 : INFO : SwitchController : <<<<<<< 's_left_eos' active >>>>>>>
+2026-07-15 15:27:52,639 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:52,639 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:52,653 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:52,654 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:52,732 : INFO : SwitchController : <<<<<<< 's_left_sling' active >>>>>>>
+2026-07-15 15:27:52,747 : INFO : SwitchController : <<<<<<< 's_left_sling' inactive >>>>>>>
+2026-07-15 15:27:52,966 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-07-15 15:27:52,967 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-07-15 15:27:52,967 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:27:52,968 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' active >>>>>>>
+2026-07-15 15:27:52,997 : INFO : SwitchController : <<<<<<< 's_right_eos' active >>>>>>>
+2026-07-15 15:27:52,998 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:53,029 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:53,044 : INFO : SwitchController : <<<<<<< 's_left_eos' inactive >>>>>>>
+2026-07-15 15:27:53,343 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-07-15 15:27:53,343 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:27:53,422 : INFO : SwitchController : <<<<<<< 's_right_eos' inactive >>>>>>>
+2026-07-15 15:27:53,903 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' active >>>>>>>
+2026-07-15 15:27:53,904 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-07-15 15:27:53,935 : INFO : SwitchController : <<<<<<< 's_left_eos' active >>>>>>>
+2026-07-15 15:27:53,936 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:53,952 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:53,967 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:54,089 : INFO : SwitchController : <<<<<<< 's_left_sling' active >>>>>>>
+2026-07-15 15:27:54,104 : INFO : SwitchController : <<<<<<< 's_left_sling' inactive >>>>>>>
+2026-07-15 15:27:54,433 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-07-15 15:27:54,433 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:27:54,510 : INFO : SwitchController : <<<<<<< 's_left_eos' inactive >>>>>>>
+2026-07-15 15:27:54,635 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' active >>>>>>>
+2026-07-15 15:27:54,636 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-07-15 15:27:54,650 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:54,666 : INFO : SwitchController : <<<<<<< 's_right_front_pop' inactive >>>>>>>
+2026-07-15 15:27:54,680 : INFO : SwitchController : <<<<<<< 's_right_eos' active >>>>>>>
+2026-07-15 15:27:55,117 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:27:55,117 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-07-15 15:27:55,194 : INFO : SwitchController : <<<<<<< 's_right_eos' inactive >>>>>>>
+2026-07-15 15:27:56,824 : INFO : SwitchController : <<<<<<< 's_left_sling' active >>>>>>>
+2026-07-15 15:27:56,824 : INFO : SwitchController : <<<<<<< 's_left_sling' inactive >>>>>>>
+2026-07-15 15:27:56,824 : INFO : SwitchController : <<<<<<< 's_left_sling' active >>>>>>>
+2026-07-15 15:27:56,839 : INFO : SwitchController : <<<<<<< 's_left_sling' inactive >>>>>>>
+2026-07-15 15:27:56,840 : INFO : SwitchController : <<<<<<< 's_left_sling' active >>>>>>>
+2026-07-15 15:27:56,840 : INFO : SwitchController : <<<<<<< 's_left_sling' inactive >>>>>>>
+2026-07-15 15:27:56,997 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' active >>>>>>>
+2026-07-15 15:27:56,997 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-07-15 15:27:57,027 : INFO : SwitchController : <<<<<<< 's_left_eos' active >>>>>>>
+2026-07-15 15:27:57,074 : INFO : SwitchController : <<<<<<< 's_right_front_pop' active >>>>>>>
+2026-07-15 15:27:57,433 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-07-15 15:27:57,433 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' inactive >>>>>>>
+2026-07-15 15:27:57,511 : INFO : SwitchController : <<<<<<< 's_left_eos' inactive >>>>>>>
+2026-07-15 15:28:02,037 : INFO : Machine : Shutting down...
+2026-07-15 15:28:02,038 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-07-15 15:28:02,143 : INFO : root : MPF run loop ended.

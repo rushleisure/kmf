@@ -1,0 +1,207 @@
+2026-07-15 12:46:16,551 : INFO : root : Loading config.
+2026-07-15 12:46:16,553 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-07-15 12:46:16,553 : INFO : ConfigProcessor : Loading config from cache: C:\Users\yorel\AppData\Local\Temp\e4574a669b04b9b63f2509acba37fa15.mpf_cache
+2026-07-15 12:46:16,604 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-07-15 12:46:16,604 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-07-15 12:46:16,604 : INFO : ConfigProcessor : Loading config from cache: C:\Users\yorel\AppData\Local\Temp\a3b95e4c04a1ac62e5a55f9ea03887d0.mpf_cache
+2026-07-15 12:46:16,605 : DEBUG : YamlMultifileConfigLoader : Loading mode game from C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\modes\game\config\game.yaml
+2026-07-15 12:46:16,605 : INFO : ConfigProcessor : Loading config from cache: C:\Users\yorel\AppData\Local\Temp\e52c7621daabe5c520004c2331533e7f.mpf_cache
+2026-07-15 12:46:16,606 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-07-15 12:46:16,606 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-07-15 12:46:16,607 : INFO : ConfigProcessor : Loading config from cache: C:\Users\yorel\AppData\Local\Temp\a3b95e4c04a1ac62e5a55f9ea03887d0.mpf_cache
+2026-07-15 12:46:16,607 : DEBUG : YamlMultifileConfigLoader : Loading mode base from C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\modes\base\config\base.yaml
+2026-07-15 12:46:16,608 : INFO : ConfigProcessor : Loading config from cache: C:\Users\yorel\AppData\Local\Temp\adec83306147c6c0299d94bb4067de98.mpf_cache
+2026-07-15 12:46:16,608 : INFO : Machine : Mission Pinball Framework Core Engine v0.81.0.dev2
+2026-07-15 12:46:16,608 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-07-15-12-46-16-mpf-MSI.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 10, 'consoleloglevel': 10, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\yorel\\Documents\\KMF\\KMF Code\\logs\\2026-07-15-12-46-16-mpf-MSI.log'}
+2026-07-15 12:46:16,608 : INFO : Machine : MPF path: C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf
+2026-07-15 12:46:16,608 : INFO : Machine : Machine path: C:\Users\yorel\Documents\KMF\KMF Code
+2026-07-15 12:46:16,608 : INFO : Machine : Platform: win32
+2026-07-15 12:46:16,608 : INFO : Machine : Python executable location: C:\Users\yorel\Documents\mpf-env-80\Scripts\python.exe
+2026-07-15 12:46:16,608 : INFO : Machine : Python version: 3.11.5 (64-bit)
+2026-07-15 12:46:16,609 : DEBUG : asyncio : Using proactor: IocpProactor
+2026-07-15 12:46:16,609 : INFO : Machine : Initializing MPF...
+2026-07-15 12:46:16,669 : DEBUG : TextUi : Text UI is disabled. TUI option setting: False, Asciimatics loaded: <class 'asciimatics.scene.Scene'>
+2026-07-15 12:46:16,675 : INFO : FAST : Auto-detecting ports for the following connections: ['net']
+2026-07-15 12:46:16,682 : DEBUG : FAST : Port COM3 is connected to a FAST Neuron Controller.
+2026-07-15 12:46:16,682 : DEBUG : FAST : Port COM4 is connected to a FAST Neuron Controller.
+2026-07-15 12:46:16,682 : DEBUG : FAST : Port COM5 is connected to a FAST Neuron Controller.
+2026-07-15 12:46:16,714 : INFO : FAST : Detected NET on port COM4
+2026-07-15 12:46:16,828 : INFO : FAST [NET] : Trying to connect to COM4 at 921600bps
+2026-07-15 12:46:16,835 : INFO : FAST [NET] : Connected to COM4 at 921600bps
+2026-07-15 12:46:16,854 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-07-15 12:46:16,886 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+2026-07-15 12:46:16,902 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-07-15 12:46:16,917 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-07-15 12:46:16,932 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2026-07-15 12:46:16,934 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-07-15 12:46:16,960 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-07-15 12:46:16,960 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.81.0.dev2', 'prev_value': None, 'change': True}
+2026-07-15 12:46:16,960 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.81.0.dev2, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-07-15 12:46:16,960 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.5', 'prev_value': None, 'change': True}
+2026-07-15 12:46:17,028 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.26200-SP0', 'prev_value': None, 'change': True}
+2026-07-15 12:46:17,028 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-07-15 12:46:17,028 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2026-07-15 12:46:17,028 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26200', 'prev_value': None, 'change': True}
+2026-07-15 12:46:17,028 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-07-15 12:46:17,028 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\yorel\\Documents\\KMF\\KMF Code\\logs\\2026-07-15-12-46-16-mpf-MSI.log', 'prev_value': None, 'change': True}
+2026-07-15 12:46:17,028 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-07-15 12:46:17,033 : DEBUG : ModeController : Loaded mode attract
+2026-07-15 12:46:17,035 : DEBUG : ModeController : Loaded mode game
+2026-07-15 12:46:17,035 : DEBUG : ModeController : Loaded mode base
+2026-07-15 12:46:20,225 : DEBUG : FAST Driver : Sending config to driver 9 (0x09). one_shot: False. wait_to_confirm: False
+2026-07-15 12:46:20,256 : DEBUG : FAST Driver : Sending config to driver 10 (0x0A). one_shot: False. wait_to_confirm: False
+2026-07-15 12:46:20,287 : DEBUG : FAST Driver : Sending config to driver 11 (0x0B). one_shot: False. wait_to_confirm: False
+2026-07-15 12:46:20,303 : DEBUG : FAST Driver : Sending config to driver 12 (0x0C). one_shot: False. wait_to_confirm: False
+2026-07-15 12:46:20,333 : DEBUG : FAST Driver : Sending config to driver 13 (0x0D). one_shot: False. wait_to_confirm: False
+2026-07-15 12:46:20,364 : DEBUG : FAST Driver : Sending config to driver 14 (0x0E). one_shot: False. wait_to_confirm: False
+2026-07-15 12:46:20,396 : DEBUG : FAST Driver : Sending config to driver 15 (0x0F). one_shot: False. wait_to_confirm: False
+2026-07-15 12:46:20,426 : DEBUG : FAST Driver : Sending config to driver 16 (0x10). one_shot: False. wait_to_confirm: False
+2026-07-15 12:46:20,457 : DEBUG : FAST Driver : Sending config to driver 17 (0x11). one_shot: False. wait_to_confirm: False
+2026-07-15 12:46:20,489 : DEBUG : FAST Driver : Sending config to driver 18 (0x12). one_shot: False. wait_to_confirm: False
+2026-07-15 12:46:20,521 : DEBUG : FAST Driver : Sending config to driver 19 (0x13). one_shot: False. wait_to_confirm: False
+2026-07-15 12:46:20,536 : DEBUG : FAST Driver : Sending config to driver 20 (0x14). one_shot: False. wait_to_confirm: False
+2026-07-15 12:46:20,552 : DEBUG : FAST Driver : Sending config to driver 21 (0x15). one_shot: False. wait_to_confirm: False
+2026-07-15 12:46:20,582 : DEBUG : FAST Driver : Sending config to driver 22 (0x16). one_shot: False. wait_to_confirm: False
+2026-07-15 12:46:20,614 : DEBUG : FAST Driver : Sending config to driver 23 (0x17). one_shot: False. wait_to_confirm: False
+2026-07-15 12:46:20,644 : DEBUG : FAST Driver : Sending config to driver 24 (0x18). one_shot: False. wait_to_confirm: False
+2026-07-15 12:46:20,660 : DEBUG : FAST Driver : Sending config to driver 25 (0x19). one_shot: False. wait_to_confirm: False
+2026-07-15 12:46:20,665 : DEBUG : FAST Driver : Sending config to driver 26 (0x1A). one_shot: False. wait_to_confirm: False
+2026-07-15 12:46:20,691 : DEBUG : FAST Driver : Sending config to driver 28 (0x1C). one_shot: False. wait_to_confirm: False
+2026-07-15 12:46:20,723 : DEBUG : FAST Driver : Sending config to driver 29 (0x1D). one_shot: False. wait_to_confirm: False
+2026-07-15 12:46:20,960 : INFO : SwitchController : <<<<<<< 's_ left_spinner_opto' active >>>>>>>
+2026-07-15 12:46:20,961 : INFO : SwitchController : <<<<<<< 's_right_spinner_opto' active >>>>>>>
+2026-07-15 12:46:20,961 : INFO : SwitchController : <<<<<<< 's_left_drop' active >>>>>>>
+2026-07-15 12:46:20,962 : INFO : SwitchController : <<<<<<< 's_right_drop' active >>>>>>>
+2026-07-15 12:46:20,962 : INFO : SwitchController : <<<<<<< 's_center_drop' active >>>>>>>
+2026-07-15 12:46:20,962 : INFO : SwitchController : <<<<<<< 's_trough_1_opto' active >>>>>>>
+2026-07-15 12:46:20,963 : INFO : SwitchController : <<<<<<< 's_trough_2_opto' active >>>>>>>
+2026-07-15 12:46:20,963 : INFO : SwitchController : <<<<<<< 's_trough_3_opto' active >>>>>>>
+2026-07-15 12:46:20,968 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-07-15 12:46:20,969 : INFO : SwitchController : Found active switch: (57, [FAST Platform Interface]) <switch.s_ left_spinner_opto>
+2026-07-15 12:46:20,969 : INFO : SwitchController : Found active switch: (56, [FAST Platform Interface]) <switch.s_right_spinner_opto>
+2026-07-15 12:46:20,969 : INFO : SwitchController : Found active switch: (64, [FAST Platform Interface]) <switch.s_left_drop>
+2026-07-15 12:46:20,969 : INFO : SwitchController : Found active switch: (47, [FAST Platform Interface]) <switch.s_right_drop>
+2026-07-15 12:46:20,969 : INFO : SwitchController : Found active switch: (43, [FAST Platform Interface]) <switch.s_center_drop>
+2026-07-15 12:46:20,969 : INFO : SwitchController : Found active switch: (24, [FAST Platform Interface]) <switch.s_trough_1_opto>
+2026-07-15 12:46:20,969 : INFO : SwitchController : Found active switch: (25, [FAST Platform Interface]) <switch.s_trough_2_opto>
+2026-07-15 12:46:20,969 : INFO : SwitchController : Found active switch: (26, [FAST Platform Interface]) <switch.s_trough_3_opto>
+2026-07-15 12:46:20,979 : DEBUG : Machine : "info_lights:" section not found in machine configuration, so the InfoLights will not be used.
+2026-07-15 12:46:20,983 : DEBUG : Machine : "switch_player:" section not found in machine configuration, so the SwitchPlayer will not be used.
+2026-07-15 12:46:20,987 : DEBUG : Machine : "twitch_client:" section not found in machine configuration, so the TwitchBot will not be used.
+2026-07-15 12:46:20,988 : DEBUG : Machine : "virtual_segment_display_connector:" section not found in machine configuration, so the VirtualSegmentDisplayConnector will not be used.
+2026-07-15 12:46:20,988 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2026-07-15 12:46:20,988 : DEBUG : ShowController : Loading show: flash
+2026-07-15 12:46:20,989 : DEBUG : ShowController : Loading show: on
+2026-07-15 12:46:20,989 : DEBUG : ShowController : Loading show: off
+2026-07-15 12:46:20,989 : DEBUG : ShowController : Loading show: led_color
+2026-07-15 12:46:20,989 : DEBUG : ShowController : Loading show: bl_color
+2026-07-15 12:46:20,990 : DEBUG : ShowController : Loading show: flash_color
+2026-07-15 12:46:20,990 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2026-07-15 12:46:20,992 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_spinner_opto'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,992 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,992 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_3_bank_standup_1_lowest'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,992 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_balcony_bow'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,992 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_star_rollover_9'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,992 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_3_bank_standup_2_middle'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,992 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eject_hole'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_upper_level_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_upper_level_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_upper_level_flipper_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_sling'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_3_bank_standup_1_lowest'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_3_bank_standup_2_middle'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_3_bank_standup_3_highest'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_ramp_exit'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1_opto'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_wireform_exit_left_opto'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_star_rollover_6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ bogieland_drain'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_KMF_center_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_front_pop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_lane_c'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_center_drop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_ramp_exit'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_balcony_bow'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_star_rollover_4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_rear_pop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_wireform_exit_right_opto'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_star_rollover_8'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_lane_b'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_star_rollover_7'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_upper_level_flipper_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_lane_a'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_rear_pop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_star_rollover_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_front_pop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_standup_target_at_ramp_entry'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ left_spinner_opto'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_drop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_star_rollover_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_star_rollover_5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,993 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_standup_target_at_ramp_entry'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,994 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2_opto'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,994 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_star_rollover_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,994 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_3_bank_standup_3_highest'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,994 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_drop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,994 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3_opto'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,994 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_sling'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,994 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,994 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,994 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2026-07-15 12:46:20,994 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2026-07-15 12:46:20,994 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2026-07-15 12:46:20,994 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2026-07-15 12:46:20,994 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2026-07-15 12:46:20,995 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2026-07-15 12:46:20,995 : DEBUG : FAST Driver : Setting hardware rule for driver 11. Mode: 75. Switch: 0A. coil_settings: DriverSettings(hw_driver=<mpf.platforms.fast.fast_driver.FASTDriver object at 0x0000020AE20AE340>, pulse_settings=PulseSettings(power=1.0, duration=10), hold_settings=None, recycle=False). kwargs: {'off_switch': '20'}.
+2026-07-15 12:46:20,995 : DEBUG : FAST Driver : Sending config to driver 11 (0x0B). one_shot: False. wait_to_confirm: False
+2026-07-15 12:46:20,996 : DEBUG : FAST Driver : Setting hardware rule for driver 10. Mode: 18. Switch: 0A. coil_settings: DriverSettings(hw_driver=<mpf.platforms.fast.fast_driver.FASTDriver object at 0x0000020AE20AE2D0>, pulse_settings=PulseSettings(power=1.0, duration=10), hold_settings=HoldSettings(power=1.0, duration=None), recycle=False). kwargs: {}.
+2026-07-15 12:46:20,996 : DEBUG : FAST Driver : Sending config to driver 10 (0x0A). one_shot: False. wait_to_confirm: False
+2026-07-15 12:46:20,996 : DEBUG : FAST Driver : Setting hardware rule for driver 14. Mode: 75. Switch: 12. coil_settings: DriverSettings(hw_driver=<mpf.platforms.fast.fast_driver.FASTDriver object at 0x0000020AE20AE490>, pulse_settings=PulseSettings(power=1.0, duration=10), hold_settings=None, recycle=False). kwargs: {'off_switch': '24'}.
+2026-07-15 12:46:20,996 : DEBUG : FAST Driver : Sending config to driver 14 (0x0E). one_shot: False. wait_to_confirm: False
+2026-07-15 12:46:20,996 : DEBUG : FAST Driver : Setting hardware rule for driver 12. Mode: 18. Switch: 12. coil_settings: DriverSettings(hw_driver=<mpf.platforms.fast.fast_driver.FASTDriver object at 0x0000020AE20AE3B0>, pulse_settings=PulseSettings(power=1.0, duration=10), hold_settings=HoldSettings(power=1.0, duration=None), recycle=False). kwargs: {}.
+2026-07-15 12:46:20,996 : DEBUG : FAST Driver : Sending config to driver 12 (0x0C). one_shot: False. wait_to_confirm: False
+2026-07-15 12:46:20,996 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2026-07-15 12:46:20,997 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2026-07-15 12:46:20,997 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2026-07-15 12:46:20,997 : INFO : Mode.attract : Started. Priority: 10
+2026-07-15 12:46:20,997 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-07-15 12:46:20,997 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2026-07-15 12:46:20,997 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2026-07-15 12:46:20,998 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2026-07-15 12:46:24,581 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' active >>>>>>>
+2026-07-15 12:46:24,581 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-07-15 12:46:24,737 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-07-15 12:46:24,738 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' inactive >>>>>>>
+2026-07-15 12:46:29,846 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-07-15 12:46:29,847 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' active >>>>>>>
+2026-07-15 12:46:30,064 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' inactive >>>>>>>
+2026-07-15 12:46:30,065 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-07-15 12:46:40,985 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-07-15 12:46:40,986 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' active >>>>>>>
+2026-07-15 12:46:41,371 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' inactive >>>>>>>
+2026-07-15 12:46:41,371 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-07-15 12:46:41,607 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-07-15 12:46:41,608 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' active >>>>>>>
+2026-07-15 12:46:41,857 : INFO : SwitchController : <<<<<<< 's_right_upper_level_flipper' inactive >>>>>>>
+2026-07-15 12:46:41,857 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-07-15 12:46:43,150 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' active >>>>>>>
+2026-07-15 12:46:43,150 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-07-15 12:46:43,507 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-07-15 12:46:43,507 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' inactive >>>>>>>
+2026-07-15 12:46:43,709 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-07-15 12:46:43,709 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' active >>>>>>>
+2026-07-15 12:46:43,990 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-07-15 12:46:43,990 : INFO : SwitchController : <<<<<<< 's_left_upper_level_flipper' inactive >>>>>>>
+2026-07-15 12:46:50,596 : INFO : Machine : Shutting down...
+2026-07-15 12:46:50,597 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-07-15 12:46:50,682 : DEBUG : FAST [NET] : Stop called on serial connection NET
+2026-07-15 12:46:50,686 : INFO : root : MPF run loop ended.

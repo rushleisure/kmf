@@ -1,0 +1,58 @@
+2026-07-05 16:10:42,668 : INFO : root : Loading config.
+2026-07-05 16:10:42,673 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-07-05 16:10:42,674 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\yorel\Documents\KMF\KMF Code\config\config.yaml
+2026-07-05 16:10:42,674 : INFO : ConfigProcessor : Loading config from file C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\mpfconfig.yaml.
+2026-07-05 16:10:42,693 : INFO : ConfigProcessor : Loading config: C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\mpfconfig.yaml
+2026-07-05 16:10:42,693 : INFO : ConfigProcessor : Loading config from file C:\Users\yorel\Documents\KMF\KMF Code\config\config.yaml.
+2026-07-05 16:10:42,706 : INFO : ConfigProcessor : Loading config: C:\Users\yorel\Documents\KMF\KMF Code\config\config.yaml
+2026-07-05 16:10:42,710 : INFO : ConfigProcessor : Config file cache created: C:\Users\yorel\AppData\Local\Temp\e4574a669b04b9b63f2509acba37fa15.mpf_cache
+2026-07-05 16:10:42,894 : INFO : ConfigProcessor : Loading config from cache: C:\Users\yorel\AppData\Local\Temp\a3b95e4c04a1ac62e5a55f9ea03887d0.mpf_cache
+2026-07-05 16:10:42,896 : INFO : ConfigProcessor : Loading config from cache: C:\Users\yorel\AppData\Local\Temp\e52c7621daabe5c520004c2331533e7f.mpf_cache
+2026-07-05 16:10:42,897 : INFO : ConfigProcessor : Loading config from cache: C:\Users\yorel\AppData\Local\Temp\a3b95e4c04a1ac62e5a55f9ea03887d0.mpf_cache
+2026-07-05 16:10:42,898 : INFO : ConfigProcessor : Loading config from cache: C:\Users\yorel\AppData\Local\Temp\adec83306147c6c0299d94bb4067de98.mpf_cache
+2026-07-05 16:10:42,899 : INFO : Machine : Mission Pinball Framework Core Engine v0.81.0.dev2
+2026-07-05 16:10:42,899 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-07-05-16-10-42-mpf-MSI.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\yorel\\Documents\\KMF\\KMF Code\\logs\\2026-07-05-16-10-42-mpf-MSI.log'}
+2026-07-05 16:10:42,899 : INFO : Machine : MPF path: C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf
+2026-07-05 16:10:42,899 : INFO : Machine : Machine path: C:\Users\yorel\Documents\KMF\KMF Code
+2026-07-05 16:10:42,899 : INFO : Machine : Platform: win32
+2026-07-05 16:10:42,899 : INFO : Machine : Python executable location: C:\Users\yorel\Documents\mpf-env-80\Scripts\python.exe
+2026-07-05 16:10:42,899 : INFO : Machine : Python version: 3.11.5 (64-bit)
+2026-07-05 16:10:42,901 : INFO : Machine : Initializing MPF...
+2026-07-05 16:10:42,942 : ERROR : ConfigValidator : Your config contains a value for the setting "fast:net:default_normal_debounce_clode", but this is not a valid setting name.
+2026-07-05 16:10:42,943 : ERROR : Machine : Failed to initialize MPF
+Traceback (most recent call last):
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\machine.py", line 688, in initialize_mpf
+    raise init.exception()
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\machine.py", line 250, in initialize
+    await self.initialize_core_and_hardware()
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\machine.py", line 236, in initialize_core_and_hardware
+    self._load_hardware_platforms()
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\machine.py", line 492, in _load_hardware_platforms
+    self.add_platform(hardware_platform)
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\machine.py", line 622, in add_platform
+    self.hardware_platforms[name] = hardware_platform(self)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\platforms\fast\fast.py", line 60, in __init__
+    self.config = self.machine.config_validator.validate_config("fast", self.machine.config['fast'])
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\config_validator.py", line 243, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\config_validator.py", line 699, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\config_validator.py", line 368, in _validate_type_subconfig
+    return self._validate_config(attribute, item, validation_failure_info=validation_failure_info,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\config_validator.py", line 177, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\config_validator.py", line 345, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Your config contains a value for the setting "fast:net:default_normal_debounce_clode", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://missionpinball.org/latest/logs)
+2026-07-05 16:10:42,949 : INFO : root : MPF run loop ended.

@@ -3,59 +3,59 @@
 coils:
     c_flipper_left_main:
         number: 3208-3
-        default_pulse_ms: 20
+        default_pulse_ms: 18
     c_flipper_left_hold:
         number: 3208-2
         allow_enable: true
     c_flipper_right_main:
         number: 3208-6
-        default_pulse_ms: 20
+        default_pulse_ms: 18
     c_flipper_right_hold:
         number: 3208-4
         allow_enable: true
     c_flipper_left_upper_level_main:
         number: 1616-12
+        default_pulse_ms: 12
     c_flipper_left_upper_level_hold:
         number: 1616-13
         allow_enable: true
     c_flipper_right_upper_level_main:
         number: 1616-8
+        default_pulse_ms: 12
     c_flipper_right_upper_level_hold:
         number: 1616-9
         allow_enable: true
     c_trough_eject:
         number: 3208-1
-        platform_settings:
-            recycle_ms: 10ms
-            pwm2_ms: 15ms
+        default_pulse_ms: 20
     c_left_sling:
         number: 3208-7
-        default_pulse_ms: 21
+        default_pulse_ms: 5
         platform_settings:
             recycle_ms: 40
     c_right_sling:
         number: 3208-5
-        default_pulse_ms: 21
+        default_pulse_ms: 5
         platform_settings:
             recycle_ms: 40
     c_left_rear_pop:
         number: 1616-7
-        default_pulse_ms: 21
+        default_pulse_ms: 18
         platform_settings:
             recycle_ms: 30
     c_right_rear_pop:
         number: 1616-6
-        default_pulse_ms: 21
+        default_pulse_ms: 18
         platform_settings:
             recycle_ms: 30
     c_left_front_pop:
         number: 1616-5
-        default_pulse_ms: 21
+        default_pulse_ms: 18
         platform_settings:
             recycle_ms: 30
     c_right_front_pop:
         number: 1616-4
-        default_pulse_ms: 21
+        default_pulse_ms: 18
         platform_settings:
             recycle_ms: 30
     c_left_drop:

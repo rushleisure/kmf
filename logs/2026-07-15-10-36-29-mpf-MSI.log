@@ -1,0 +1,65 @@
+2026-07-15 10:36:29,475 : INFO : root : Loading config.
+2026-07-15 10:36:29,480 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-07-15 10:36:29,480 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\yorel\Documents\KMF\KMF Code\config\config.yaml
+2026-07-15 10:36:29,480 : INFO : ConfigProcessor : Loading config from file C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\mpfconfig.yaml.
+2026-07-15 10:36:29,489 : INFO : ConfigProcessor : Loading config: C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\mpfconfig.yaml
+2026-07-15 10:36:29,489 : INFO : ConfigProcessor : Loading config from file C:\Users\yorel\Documents\KMF\KMF Code\config\config.yaml.
+2026-07-15 10:36:29,499 : INFO : ConfigProcessor : Loading config: C:\Users\yorel\Documents\KMF\KMF Code\config\config.yaml
+2026-07-15 10:36:29,501 : INFO : ConfigProcessor : Config file cache created: C:\Users\yorel\AppData\Local\Temp\e4574a669b04b9b63f2509acba37fa15.mpf_cache
+2026-07-15 10:36:29,571 : INFO : ConfigProcessor : Loading config from cache: C:\Users\yorel\AppData\Local\Temp\a3b95e4c04a1ac62e5a55f9ea03887d0.mpf_cache
+2026-07-15 10:36:29,572 : INFO : ConfigProcessor : Loading config from cache: C:\Users\yorel\AppData\Local\Temp\e52c7621daabe5c520004c2331533e7f.mpf_cache
+2026-07-15 10:36:29,573 : INFO : ConfigProcessor : Loading config from cache: C:\Users\yorel\AppData\Local\Temp\a3b95e4c04a1ac62e5a55f9ea03887d0.mpf_cache
+2026-07-15 10:36:29,574 : INFO : ConfigProcessor : Loading config from cache: C:\Users\yorel\AppData\Local\Temp\adec83306147c6c0299d94bb4067de98.mpf_cache
+2026-07-15 10:36:29,574 : INFO : Machine : Mission Pinball Framework Core Engine v0.81.0.dev2
+2026-07-15 10:36:29,574 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-07-15-10-36-29-mpf-MSI.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\yorel\\Documents\\KMF\\KMF Code\\logs\\2026-07-15-10-36-29-mpf-MSI.log'}
+2026-07-15 10:36:29,574 : INFO : Machine : MPF path: C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf
+2026-07-15 10:36:29,575 : INFO : Machine : Machine path: C:\Users\yorel\Documents\KMF\KMF Code
+2026-07-15 10:36:29,575 : INFO : Machine : Platform: win32
+2026-07-15 10:36:29,575 : INFO : Machine : Python executable location: C:\Users\yorel\Documents\mpf-env-80\Scripts\python.exe
+2026-07-15 10:36:29,575 : INFO : Machine : Python version: 3.11.5 (64-bit)
+2026-07-15 10:36:29,577 : INFO : Machine : Initializing MPF...
+2026-07-15 10:36:29,697 : INFO : FAST : Auto-detecting ports for the following connections: ['net']
+2026-07-15 10:36:29,747 : INFO : FAST : Detected NET on port COM4
+2026-07-15 10:36:29,860 : INFO : FAST [NET] : Trying to connect to COM4 at 921600bps
+2026-07-15 10:36:29,869 : INFO : FAST [NET] : Connected to COM4 at 921600bps
+2026-07-15 10:36:29,887 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-07-15 10:36:29,917 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+2026-07-15 10:36:29,920 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-07-15 10:36:29,934 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-07-15 10:36:29,949 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2026-07-15 10:36:29,951 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-07-15 10:36:29,996 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-07-15 10:36:29,996 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.81.0.dev2', 'prev_value': None, 'change': True}
+2026-07-15 10:36:29,996 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.81.0.dev2, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-07-15 10:36:29,996 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.5', 'prev_value': None, 'change': True}
+2026-07-15 10:36:30,065 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.26200-SP0', 'prev_value': None, 'change': True}
+2026-07-15 10:36:30,065 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-07-15 10:36:30,065 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2026-07-15 10:36:30,065 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26200', 'prev_value': None, 'change': True}
+2026-07-15 10:36:30,065 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-07-15 10:36:30,065 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\yorel\\Documents\\KMF\\KMF Code\\logs\\2026-07-15-10-36-29-mpf-MSI.log', 'prev_value': None, 'change': True}
+2026-07-15 10:36:30,065 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-07-15 10:36:30,090 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-84' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_star_rollover_4 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\platforms\fast\fast.py", line 577, in configure_switch
+    self.raise_config_error(f"Could not parse switch number {config.name}/{number}. Seems "
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\logging.py", line 175, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in FAST: Could not parse switch number s_star_rollover_4/161612. Seems to be not a valid switch number for the FAST platform. Error Code: CFE-https://fastpinball.com/mpf/error-8 (https://missionpinball.org/latest/logs)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\yorel\Documents\mpf-env-80\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_star_rollover_4 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/latest/logs)
+2026-07-15 10:36:30,095 : INFO : Machine : Starting the main run loop with active modes: []
+2026-07-15 10:36:30,095 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-07-15 10:36:30,096 : INFO : Machine : Shutting down...
+2026-07-15 10:36:30,096 : INFO : EventManager : Event: ======'shutdown'====== Args={}

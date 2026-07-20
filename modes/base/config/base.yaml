@@ -7,3 +7,13 @@ mode:
   start_events: ball_starting
   stop_events: ball_will_end
   priority: 100
+
+event_player:
+  mode_base_started:
+    - start_mode_pops
+  mode_base_will_stop:
+    - stop_mode_pops
+
+slide_player:
+  mode_base_started: base_slide
+  
